@@ -8,13 +8,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
 }
 .father {
     width: 400px;
     height: 300px;
     background: #fdfdfd;
     position: fixed;
-    overflow: scroll;
+    top: 0;
 
 }
 .box_1{
@@ -33,5 +34,5 @@ body{
     border: 3px solid;
     position: absolute;
     left: 350px;
-    top: 150px;
+    top: 0px;
 }
