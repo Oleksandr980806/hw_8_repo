@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+.father {
+    width: 400px;
+    height: 300px;
+    background: #fdfdfd;
+    position: fixed;
+    top: 0;
+
+}
+.box_1{
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border: 3px solid;
+    position: absolute;
+    right: 350px;
+    top: 250px;
+}
+.box_2 {
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border: 3px solid;
+    position: absolute;
+    left: 350px;
+    top: 0;
+}
